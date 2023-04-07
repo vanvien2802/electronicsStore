@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.createProduct{
+	border:none;
+	width:160px;
+	height:40px;
+	border-radius:20px;
+	color: #ffffff;
+	font-weight: 500;
+}
+.deleteProduct{
+	border:none;
+	width:160px;
+	height:40px;
+	border-radius:20px;
+	color: #ffffff;
+	font-weight: 500;
+}
+
+.UpdateProduct{
+	border:none;
+	width:160px;
+	height:40px;
+	border-radius:20px;
+	color: #400040;
+	font-weight: 500;
+}
+.UpdateProduct:hover{
+	cursor: pointer;
+	background:#808040;
+}
+.UpdateProduct{background:#408080;}
+.deleteProduct{background:#ff8080;}
+.createProduct{background:#00ff80;}
+.deleteProduct:hover{
+	cursor: pointer;
+	background:#ff0000;
+}
+.createProduct:hover{
+	cursor: pointer;
+	background:#00ff40;
+}
+.deleteProduct:active{
+	background:#ff80ff;
+	color: #400000;
+}
+.createProduct:active{
+	background:#80ff00;
+	color: #400000;
+}
